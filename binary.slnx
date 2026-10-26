@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="engine/engine.vcxproj" Id="7104882e-6dac-48ee-bc05-918e5bf693d1" />
+  <Project Path="game/client/client.vcxproj" Id="f484c8c3-aa30-4620-bc12-1422fc281ede" />
+  <Project Path="game/server/server.vcxproj" Id="6e746381-61b2-4ccf-9db4-55bf78834959" />
+  <Project Path="binary/binary.vcxproj" Id="a9dd2236-8f53-4ff7-ad94-bf8e21e14808" />
+  <Project Path="shared/shared.vcxproj" Id="4bf345f4-4eda-4a00-bd42-55d4b9910558" />
+</Solution>

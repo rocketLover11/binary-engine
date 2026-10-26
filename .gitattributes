@@ -1,0 +1,10 @@
+* text=auto
+
+*.slnx text eol=crlf
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+*.props text eol=crlf
+
+*.ico binary
+*.cso binary
+*.rc binary

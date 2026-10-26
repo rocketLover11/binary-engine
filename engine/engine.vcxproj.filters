@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{92acf1c8-b85b-407b-933a-cc5a7585fcbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3d11_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="std_console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui-1.91.9\imconfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui-1.91.9\imgui.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui-1.91.9\imgui_impl_dx11.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui-1.91.9\imgui_impl_win32.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui-1.91.9\imgui_internal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui-1.91.9\imstb_rectpack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui-1.91.9\imstb_textedit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui-1.91.9\imstb_truetype.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3d11_device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvar_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="std_console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="builtin_cmds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui-1.91.9\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui-1.91.9\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui-1.91.9\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui-1.91.9\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui-1.91.9\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui-1.91.9\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="basic.hlsl">
+      <Filter>Shader Files</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
